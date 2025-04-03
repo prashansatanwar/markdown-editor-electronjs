@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>Markdown Editor</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <textarea id="editor" placeholder="Write Markdown here..."></textarea>
+    <div id="preview"></div>
+    <script src="render.js"></script>
   </body>
 </html>
